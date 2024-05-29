@@ -39,9 +39,9 @@ Ex) 자동차 게임의 `drive` 동작 구현 개발에서,
 <br>
 3. `수정자 주입`을 통한 의존 제어 (**Setter Injection**)  
 `수정자 주입` 의존 구조에서는 객체에 선언된 setter 메서드를 호출해 의존 객체를 주입
-![FieldDI.png](/img%2FFieldDI.png)<br><br>
+    ![FieldDI.png](/img%2FFieldDI.png)<br><br>
 4. `생성자 주입`을 통한 의존  
 `생성자 주입` 의존 구조에서는 객체 생성 시 생성자에 의존 대상 객체를 주입
- ![ConstructorDI.png](/img%2FConstructorDI.png)
+    ![ConstructorDI.png](/img%2FConstructorDI.png)
 
 보통은 생성자 주입이 많은 장점을 제공하기 때문에 권장되어, 객체의 상태를 안정적으로 유지하고 테스트하기 쉽게 만든다.
